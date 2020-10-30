@@ -45,7 +45,7 @@ class Factory
      */
     private $classMap = [
         'aud' => Audience::class,
-        'exp' => Expiration::class,
+        //'exp' => Expiration::class,
         'iat' => IssuedAt::class,
         'iss' => Issuer::class,
         'jti' => JwtId::class,
